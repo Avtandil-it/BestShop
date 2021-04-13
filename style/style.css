@@ -1,0 +1,507 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header__inner {
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    color: #22262A;
+}
+
+.menu__list {
+    list-style-type: none;
+    display: flex;
+
+}
+
+.menu__list-item:not(:last-child) {
+    margin-right: 20px;
+}
+
+nav a:hover {
+    color: #c9a96e;
+    transition: .5s;
+}
+
+.menu__link {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+}
+
+.fa-heart {
+    margin: 0 30px;
+}
+
+#hero {
+    background: url("../image/hero/img1.png")left center/cover no-repeat;
+    min-height: 745px;
+}
+
+.hero__item-inner {
+    position: relative;
+    min-height: 745px;
+}
+
+.hero__item-content {
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+}
+
+.hero-desc {
+    display:block;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+}
+
+.hero-title {
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 120px;
+    color: #22262A
+}
+
+.hero-link {
+    display: inline-block;
+    margin: 30px 35px 0 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+    padding: 5px 30px;
+    background: #000;
+}
+
+#category {
+    padding-top: 125px;
+}
+
+.row {
+    margin: 0 -15px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.female__img {
+    width: 100%;
+
+}
+
+.female__img-block {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px -13px 0 -13px;
+}
+
+.img-col-6 {
+    width: 50%;
+    padding: 0 13px;
+}
+
+.category__men-bg {
+    position: relative;
+    top: -2px;
+    background:#00000050 url("../image/category/img4.png")center center/cover no-repeat;
+    min-height: 575px;
+    background-blend-mode:darken ;
+}
+
+.category__btn {
+    display: flex;
+    padding: 5px 25px;
+    background: #ffffff;
+    position: absolute;
+    bottom: 25px;
+    left: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+}
+
+#women {
+    padding-top: 110px;
+}
+
+.women-title {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #22262A
+}
+
+.women-deck {
+    display: block;
+    margin: 15px 0 65px 0;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #22262A;
+}
+
+.catalog__desc {
+    margin-top: 40px;
+}
+
+.product__name {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+.product__title {
+    display: block;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+.catalog__price {
+    width: 145px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.old__price {
+    text-decoration: line-through;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+.new__price {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #f30825;
+}
+
+#men {
+    padding-top: 110px;
+}
+
+.men-title {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #22262A
+}
+
+.men-deck {
+    display: block;
+    margin: 15px 0 65px 0;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #22262A;
+}
+
+.catalog__desc {
+    margin-top: 40px;
+}
+
+.product__name {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+.product__title {
+    display: block;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+.catalog__price {
+    width: 145px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.old__price {
+    text-decoration: line-through;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+.new__price {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #f30825;
+}
+
+#styles {
+    padding-top: 110px;
+    padding-bottom: 120px;
+}
+
+.styles__title {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #22262A
+}
+
+.styles__desc {
+    display: block;
+    margin: 15px 0 60px 0;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #22262A;
+}
+
+.styles__img-item {
+    width: 100%;
+}
+
+.styles__img-left {
+    margin-top: 68px;
+}
+
+.layer__styles {
+    min-height: 280px;
+    position: relative;
+}
+
+.layer__img {
+    position: absolute;
+    border: 22px solid #ffffff;
+    right: -62px;
+    top: -77px;
+}
+
+.layer__desc {
+    position: absolute;
+    left: 150px;
+    bottom: 90px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000000;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+#tachen {
+    min-height: 745px;
+    background: url("../image/tachen/img1.png")center center/cover no-repeat;
+}
+
+.tachen__inner-item {
+    min-height: 745px;
+    position: relative;
+}
+
+.tachen__item {
+    position: absolute;
+    bottom: 130px;
+    left: 230px;
+}
+
+.tachen__desc {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+}
+
+.tachen__title {
+    display: block;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 120px;
+    color: #22262A;
+}
+
+.tachen__btn {
+    display: inline-block;
+    padding: 5px 25px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    background: #000;
+}
+
+#info {
+    padding-top: 115px;
+    background: #f2f8fc;
+    padding-bottom: 110px;
+}
+
+.info__logo {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+    color: #22262A
+}
+
+.info__desc {
+    width: 410px;
+    display: block;
+    margin: 20px 0 40px 0 ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+.info__address {
+    display: inline-block;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+.info__email {
+    display: block;
+    width: 240px;
+    margin: 15px 0 10px 0 ;
+    border-bottom: 1px solid #000000;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+.info__idx {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+.info__social {
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px
+}
+
+.email__updates-title {
+    display: block;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+    color: #22262A;
+}
+
+[for="email__updates-input"]{
+    position: relative;
+}
+
+#email__updates-input {
+    width: 100%;
+    padding: 10px 25px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+    border: none;
+}
+
+.btn__join {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    border: none;
+    background: transparent;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+.menu__info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.menu__info-list_item-title {
+    margin-bottom: 25px;
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #22262A;
+}
+
+.menu__info-list_item {
+    list-style-type: none;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+.menu__info-list_item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.footer {
+    border-radius: 0 0 45px 45px;
+    padding: 35px 0;
+    background: #E7F5F8;
+}
+
+.footer__desc {
+    display: block;
+    text-align: center;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
